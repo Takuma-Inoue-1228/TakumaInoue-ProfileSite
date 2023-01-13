@@ -1,3 +1,4 @@
 commiTest.txtの1行目
 commiTest.txtの2行目 bbbbbbbbb
+commiTest.txtの2行目 aaaaaaaaaa
 commiTest.txtの3行目 3行目を編集
