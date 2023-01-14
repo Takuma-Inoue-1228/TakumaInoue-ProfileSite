@@ -11,7 +11,7 @@ export const Header = () => {
             <Link to={"/about"}>About</Link>
           </li>
           <li>
-            <a href={"/gallery"}>Gallery</a>
+            <Link to={"/gallery"}>Gallery</Link>
           </li>
         </ul>
       </div>
