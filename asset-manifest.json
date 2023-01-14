@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TakumaInoue-ProfileSite/static/css/main.fd97fdd4.css",
-    "main.js": "/TakumaInoue-ProfileSite/static/js/main.d153dad5.js",
+    "main.css": "/TakumaInoue-ProfileSite/static/css/main.9c2afd20.css",
+    "main.js": "/TakumaInoue-ProfileSite/static/js/main.edb4c4e1.js",
     "static/js/787.0f8c18f6.chunk.js": "/TakumaInoue-ProfileSite/static/js/787.0f8c18f6.chunk.js",
     "index.html": "/TakumaInoue-ProfileSite/index.html",
-    "main.fd97fdd4.css.map": "/TakumaInoue-ProfileSite/static/css/main.fd97fdd4.css.map",
-    "main.d153dad5.js.map": "/TakumaInoue-ProfileSite/static/js/main.d153dad5.js.map",
+    "main.9c2afd20.css.map": "/TakumaInoue-ProfileSite/static/css/main.9c2afd20.css.map",
+    "main.edb4c4e1.js.map": "/TakumaInoue-ProfileSite/static/js/main.edb4c4e1.js.map",
     "787.0f8c18f6.chunk.js.map": "/TakumaInoue-ProfileSite/static/js/787.0f8c18f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd97fdd4.css",
-    "static/js/main.d153dad5.js"
+    "static/css/main.9c2afd20.css",
+    "static/js/main.edb4c4e1.js"
   ]
 }
