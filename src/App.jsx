@@ -1,8 +1,18 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Header } from "./components/Header";
+import { Top } from "./components/Top";
+import { About } from "./components/About";
+
 export const App = () => {
   return (
     <>
-      <h1 className="text-3xl text-red-500 ">Hello world</h1>
-      <p>test</p>
+      <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path={"/"} element={<Top />} />
+          <Route path={"/about"} element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
