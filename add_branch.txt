@@ -1,3 +1,0 @@
-<p>branchを追加</p>
-<p>branchを編集</p>
-<p>pullのテスト</p>
