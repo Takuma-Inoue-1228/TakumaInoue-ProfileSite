@@ -13,6 +13,9 @@ export const Header = () => {
           <li>
             <Link to={"/gallery"}>Gallery</Link>
           </li>
+          <li>
+            <Link to={"/Test"}>Test</Link>
+          </li>
         </ul>
       </div>
     </header>
