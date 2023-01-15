@@ -1,4 +1,4 @@
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const USER_DATE = [
   { id: 1, name: "takuma", age: 30, gender: "男" },
@@ -9,40 +9,40 @@ const USER_DATE = [
 ];
 
 export const Test = () => {
-  const updateUserDate = USER_DATE.map((user, index) => {
-    //   console.log("index:", index);
-    if (user.name === "takuma") {
-      return { ...user, workspace: "Tokyo" };
-    }
-    return { ...user, workspace: "Saitama" };
-  });
-  // console.log(updateUserDate);
-  // console.log(...updateUserDate);
+  //   const updateUserDate = USER_DATE.map((user, index) => {
+  //     console.log("index:", index);
+  //     if (user.name === "takuma") {
+  //       return { ...user, workspace: "Tokyo" };
+  //     }
+  //     return { ...user, workspace: "Saitama" };
+  //   });
+  //   console.log(updateUserDate);
+  //   console.log(...updateUserDate);
 
-  const filterUserDate = USER_DATE.map((user) => {
-    if (user.gender === "女") {
-      return user;
-    }
-  });
-  // console.log(filterUserDate);
-  // console.log(...filterUserDate);
+  //   const filterUserDate = USER_DATE.map((user) => {
+  //     if (user.gender === "女") {
+  //       return user;
+  //     }
+  //   });
+  //   console.log(filterUserDate);
+  //   console.log(...filterUserDate);
 
-  const findMyUserDate = USER_DATE.find((user) => {
-    if (user.name === "saki") {
-      return user;
-    }
-  });
-    // console.log("find関数", findMyUserDate);
+  //   const findMyUserDate = USER_DATE.find((user) => {
+  //     if (user.name === "saki") {
+  //       return user;
+  //     }
+  //   });
+  //   console.log("find関数", findMyUserDate);
 
-  const isOldAge = USER_DATE.some((user) => {
-    return user.age > 100;
-  });
-    // console.log("some関数", isOldAge);
-    
-  const isAdult = USER_DATE.every((user) => {
-    return user.age > 20;
-  });
-  console.log("every関数", isAdult);
+  //   const isOldAge = USER_DATE.some((user) => {
+  //     return user.age > 100;
+  //   });
+  //   console.log("some関数", isOldAge);
+
+  //   const isAdult = USER_DATE.every((user) => {
+  //     return user.age > 20;
+  //   });
+  //   console.log("every関数", isAdult);
 
   return (
     <>
@@ -53,7 +53,7 @@ export const Test = () => {
         {[...Array(5)].map((d, i) => {
           return (
             <li key={i}>
-              <Link to={`/about/${i + 1}`}>{`about${i + 1}`}</Link>
+              <Link to={`/test/${i + 1}`}>{`test${i + 1}`}</Link>
             </li>
           );
         })}

@@ -6,6 +6,7 @@ export const useCounter = () => {
 
   const increment = () => {
     setCount(count + 1);
+    setAlert(false);
   };
 
   const decrement = () => {

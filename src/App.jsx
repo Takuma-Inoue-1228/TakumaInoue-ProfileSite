@@ -5,6 +5,7 @@ import { About } from "./components/About";
 import { Count } from "./components/CountPage";
 import { Gallery } from "./components/Gallery";
 import { Test } from "./components/Test";
+import { TestDetailPage } from "./components/TestDetailPage";
 import { NotFound } from "./components/404";
 
 export const App = () => {
@@ -18,6 +19,7 @@ export const App = () => {
           <Route path={"/count"} element={<Count />} />
           <Route path={"/gallery"} element={<Gallery />} />
           <Route path={"/test"} element={<Test />} />
+          <Route path={"/test/:id"} element={<TestDetailPage />} />
           <Route path={"/*"} element={<NotFound />} />
         </Routes>
       </BrowserRouter>
