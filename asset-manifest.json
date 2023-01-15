@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TakumaInoue-ProfileSite/static/css/main.5387b253.css",
-    "main.js": "/TakumaInoue-ProfileSite/static/js/main.e71ec4cf.js",
+    "main.css": "/TakumaInoue-ProfileSite/static/css/main.38e7497e.css",
+    "main.js": "/TakumaInoue-ProfileSite/static/js/main.7c03e4bc.js",
     "static/js/787.0f8c18f6.chunk.js": "/TakumaInoue-ProfileSite/static/js/787.0f8c18f6.chunk.js",
     "static/media/_TAK3617-2.jpg": "/TakumaInoue-ProfileSite/static/media/_TAK3617-2.8060081560ebd09e4823.jpg",
     "index.html": "/TakumaInoue-ProfileSite/index.html",
-    "main.5387b253.css.map": "/TakumaInoue-ProfileSite/static/css/main.5387b253.css.map",
-    "main.e71ec4cf.js.map": "/TakumaInoue-ProfileSite/static/js/main.e71ec4cf.js.map",
+    "main.38e7497e.css.map": "/TakumaInoue-ProfileSite/static/css/main.38e7497e.css.map",
+    "main.7c03e4bc.js.map": "/TakumaInoue-ProfileSite/static/js/main.7c03e4bc.js.map",
     "787.0f8c18f6.chunk.js.map": "/TakumaInoue-ProfileSite/static/js/787.0f8c18f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5387b253.css",
-    "static/js/main.e71ec4cf.js"
+    "static/css/main.38e7497e.css",
+    "static/js/main.7c03e4bc.js"
   ]
 }
