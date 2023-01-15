@@ -1,8 +1,8 @@
 export const About = () => {
   return (
     <>
-      <div className="mx-8 w-4/5">
-        <h2 className="text-center">About</h2>
+      <div className="text-center">
+        <h2>About</h2>
 
         <table className="mt-8 w-full">
           <tbody>

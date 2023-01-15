@@ -1,8 +1,8 @@
 export const Gallery = () => {
   return (
     <>
-      <div className="mx-8 w-4/5">
-        <h2 className="text-center">Gallery</h2>
+      <div className="text-center">
+        <h2>Gallery</h2>
       </div>
     </>
   );
